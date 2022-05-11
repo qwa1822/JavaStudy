@@ -7,6 +7,8 @@ public class ComputerTest {
 		
 		//업캐스팅
 		Computer desktop=new Desktop();
+		desktop.display();
+		
 		
 		//computer에 정의된 것만 사용가능.
 		
