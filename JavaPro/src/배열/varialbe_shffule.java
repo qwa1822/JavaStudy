@@ -11,9 +11,9 @@ public class varialbe_shffule {
 		System.out.println(Arrays.toString(numArr));
 		
 		
-		for(int i=0; i<29; i++) {
+		for(int i=0; i<100; i++) {
 			int n=(int)(Math.random()*10); //0~9중 의 한값을 임의로 얻는다.
-			int tmp=numArr[0];     // numArr[0]과 numArr[n]의 값을 서로바꿈
+			int tmp=numArr[0];     // numArr[0]과 numArr[n]의 값을 
 			numArr[0]=numArr[n];
 			numArr[n]=tmp;
 		}
