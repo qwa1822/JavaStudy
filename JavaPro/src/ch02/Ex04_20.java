@@ -32,7 +32,7 @@ public class Ex04_20 {
 			 }
 			
 		
-			 for(;;) {
+			 for(;;) {  //무한 반복문 
 				 System.out.println("게산할 값을 입력하세요(계산종료:0, 전체종료:99)>");
 				 tmp=sc.nextLine();   //화면에서 입력받은 내용을 tmp에 저장
 				 num=Integer.parseInt(tmp);	//입력받은 문자열(tmp)을 숫자로변환
