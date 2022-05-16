@@ -11,29 +11,31 @@ public class Ex01 {
 		Scanner sc=new Scanner(System.in);
 		
 		int n=sc.nextInt();
-		int[] arr=new int[n];
+		int arr[]=new int[n];
 		int tmp=0;
-		for(int i=0; i<n; i++) {
+		
+		for(int j=0; j<n; j++) {
 			int w=sc.nextInt();
 			int h=sc.nextInt();
-			arr[i]=w*h;
+			
+			arr[j]=w*h;
+			
 		}
 		
 		
-		for(int i=0; i<n-1; i++) {
-			for(int j=i+1; j<n; j++) {
-				if(arr[i]>arr[j]) {
-				tmp=arr[i];
-				arr[i]=arr[j];
-				arr[j]=tmp;
+		for(int j=0; j<n-1; j++) {
+			for(int c=j+1; c<n; c++) {
+				if(arr[j]>arr[c])
+					tmp=arr[j];
+					arr[j]=arr[c];
+					arr[c]=tmp;
+					
+				
 			}
 		}
-		}
 		
-		int mid = (n-1)/2;
-		System.out.println(mid);
+		int mid=(n-1)/2;
 		System.out.println(arr[mid]);
-		
 		
 		
 		
