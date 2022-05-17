@@ -2,21 +2,22 @@ package 반복문;
 
 import java.util.Scanner;
 
-public class Main {
+public class 기찍 {
 
 	public static void main(String[] args) {
 
-
+		
+		
 	Scanner sc=new Scanner(System.in);
-		int ac=sc.nextInt();
 	
 	
-	for(int i=1; i<10; i++) {
-		System.out.println(ac+" * "+i+" ="+(ac*i));
+	int a=sc.nextInt();
+	
+	
+	for(int i=a; i>0; i--) {
+		System.out.println(i);
 	}
 
-
-		
 	
 	}
 
