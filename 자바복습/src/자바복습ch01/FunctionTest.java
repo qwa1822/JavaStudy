@@ -2,17 +2,46 @@ package 자바복습ch01;
 
 public class FunctionTest {
 	
-	public static int addNum(int n1,int n2) {
+	public static int addNum(int num1,int num2) {
+		
+		
 		int result;
-		result=n1+n2;
+		result=num1+num2;
 		return result;
+	}
+	
+	
+	public static void sayHello(String greeting) {
+		
+		
+		System.out.println(greeting);
+	}
+	
+	public static int calcSum() {
+		
+		int sum=0;
+		for(int i=0; i<=100; i++) {
+		sum+=i;
+		}
+		
+		return  sum;
 	}
 	
 
 	public static void main(String[] args) {
-
 		
-		System.out.println(addNum(10,20));
+		
+	int n1=10;
+	int n2=20;
+	
+	
+	int n3=addNum(n1,n2);
+	System.out.println(n3);
+	
+	sayHello("안녕하세요");
+	int total=0;
+	total=calcSum();
+	System.out.println(total);
 	}
 
 }
