@@ -5,7 +5,14 @@ public class studentTest {
 	public static void main(String[] args) {
 
 		
+		
+		int num=10;
+		
+		
 		Student studentLee=new Student();
+		
+		
+		
 		
 		studentLee.studentID=12345;
 		studentLee.setStudentName("Lee");
