@@ -7,7 +7,7 @@ public class MakeReportTest {
 		MakeReport builder=new MakeReport();
 		String report=builder.getReport();
 		
-		System.out.println(report);
+		sysout
 	}
 
 }

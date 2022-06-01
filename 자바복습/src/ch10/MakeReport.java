@@ -4,7 +4,7 @@ public class MakeReport {
 
 	StringBuffer buffer=new StringBuffer();
 	
-	private String line="====================================\n";
+	private String line="====================================";
 	private String title=" 이름\t    주소\t\t 전화번호 \n";
 	private void makeHeader() {
 		buffer.append(line);
